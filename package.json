@@ -1,0 +1,23 @@
+{
+  "name": "geoblacklight-arcgis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "use rest-js in GeoBlacklight to help a user create an item from a WFS service",
+  "author": "john gravois",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@esri/arcgis-rest-auth": "^1.16.1",
+    "@esri/arcgis-rest-request": "^1.16.1",
+    "@esri/arcgis-rest-items": "^1.16.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  }
+}
