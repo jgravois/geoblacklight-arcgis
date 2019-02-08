@@ -49,70 +49,70 @@ const data = {
     "supportedSpatialReferences": [
       4326
     ]
+  },
+  "layerDefinition": {
+    "geometryType": "esriGeometryPolyline",
+    "drawingInfo": {
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "color": [
+            77,
+            77,
+            77,
+            255
+          ],
+          "width": 2,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    "spatialReference": {
+      "wkid": 4326
+    },
+    "fields": [
+      {
+        "name": "shape_leng",
+        "alias": "shape_leng",
+        "type": "esriFieldTypeDouble",
+        "wfsNamespace": "http://www.w3.org/2001/XMLSchema"
+      },
+      {
+        "name": "geom",
+        "alias": "geom",
+        "type": "esriFieldTypeGeometry",
+        "wfsNamespace": "http://www.opengis.net/gml/3.2"
+      }
+    ]
+  },
+  "popupInfo": {
+    "title": "1 Degree Graticule, Northeast United States, 2010",
+    "fieldInfos": [
+      {
+        "fieldName": "shape_leng",
+        "label": "shape_leng",
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 2,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox"
+      },
+      {
+        "fieldName": "geom",
+        "label": "geom",
+        "tooltip": "",
+        "visible": false,
+        "format": null,
+        "stringFieldOption": "textbox"
+      }
+    ],
+    "description": null,
+    "showAttachments": true,
+    "mediaInfos": []
   }
-  // "layerDefinition": {
-  //   "geometryType": "esriGeometryPolyline",
-  //   "drawingInfo": {
-  //     "renderer": {
-  //       "type": "simple",
-  //       "symbol": {
-  //         "color": [
-  //           77,
-  //           77,
-  //           77,
-  //           255
-  //         ],
-  //         "width": 2,
-  //         "type": "esriSLS",
-  //         "style": "esriSLSSolid"
-  //       }
-  //     }
-  //   },
-  //   "spatialReference": {
-  //     "wkid": 4326
-  //   },
-  //   "fields": [
-  //     {
-  //       "name": "shape_leng",
-  //       "alias": "shape_leng",
-  //       "type": "esriFieldTypeDouble",
-  //       "wfsNamespace": "http://www.w3.org/2001/XMLSchema"
-  //     },
-  //     {
-  //       "name": "geom",
-  //       "alias": "geom",
-  //       "type": "esriFieldTypeGeometry",
-  //       "wfsNamespace": "http://www.opengis.net/gml/3.2"
-  //     }
-  //   ]
-  // },
-  // "popupInfo": {
-  //   "title": "1 Degree Graticule, Northeast United States, 2010",
-  //   "fieldInfos": [
-  //     {
-  //       "fieldName": "shape_leng",
-  //       "label": "shape_leng",
-  //       "tooltip": "",
-  //       "visible": false,
-  //       "format": {
-  //         "places": 2,
-  //         "digitSeparator": true
-  //       },
-  //       "stringFieldOption": "textbox"
-  //     },
-  //     {
-  //       "fieldName": "geom",
-  //       "label": "geom",
-  //       "tooltip": "",
-  //       "visible": false,
-  //       "format": null,
-  //       "stringFieldOption": "textbox"
-  //     }
-  //   ],
-  //   "description": null,
-  //   "showAttachments": true,
-  //   "mediaInfos": []
-  // }
 }
 
 const item = {
